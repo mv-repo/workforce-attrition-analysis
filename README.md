@@ -3,6 +3,9 @@
 ## Project Overview
 This project analyzes workforce attrition dynamics using high-frequency administrative data from a large manufacturing firm. It overcomes significant data quality challenges (missing timestamps, duplicate IDs, discontinuous employment spells) to estimate the causal impact of retention interventions using **Survival Analysis** and **Inverse Propensity Weighting (IPW)**.
 
+## Note
+This repo only has the code files and not the data itself given the proprietory and confidential nature of the raw data
+
 ## Key Features
 * **Complex ETL Pipeline:** Reconstructs daily employment panels from raw, disjointed attendance logs for over 450k worker-day observations.
 * **Algorithmic Imputation:** Implements logic to impute missing exit dates based on re-entry gaps.
