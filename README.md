@@ -4,7 +4,7 @@
 This project analyzes workforce attrition dynamics using high-frequency administrative data from a large manufacturing firm. It overcomes significant data quality challenges (missing timestamps, duplicate IDs, discontinuous employment spells) to estimate the causal impact of retention interventions using **Survival Analysis** and **Inverse Propensity Weighting (IPW)**.
 
 ## Key Features
-* **Complex ETL Pipeline:** Reconstructs daily employment panels from raw, disjointed attendance logs for over 15,000 workers.
+* **Complex ETL Pipeline:** Reconstructs daily employment panels from raw, disjointed attendance logs for over 450k worker-day observations.
 * **Algorithmic Imputation:** Implements logic to impute missing exit dates based on re-entry gaps.
 * **Multi-Spell Survival Analysis:** Models recurrent events (workers quitting and rejoining up to 15 times) to accurately estimate hazard rates.
 * **Causal Inference:** Uses IPW and High-Dimensional Fixed Effects (HDFE) to control for selection bias in treatment evaluation.
